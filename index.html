@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/web/assets/gdpr-plugin/gdpr-styles.css">
   <link rel="stylesheet" href="assets/smart-cart/minicart-theme.css">
   <link rel="stylesheet" href="assets/popup-overlay-plugin/style.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
@@ -246,7 +247,7 @@
                     <div class="mbr-media show-modal align-center" data-modal=".modalWindow">
                         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" loading="lazy" class="lazyload" data-src="assets/images/to-wideo-1156x648.webp">
                         <div class="icon-wrap">
-                            <span class="mbr-iconfont socicon-youtube socicon"></span>
+                            <a href="https://player.vimeo.com/video/881516420?h=e5f968acb6" target="_blank"><span class="mbr-iconfont socicon-youtube socicon" style="color: rgb(167, 242, 214); fill: rgb(167, 242, 214);"></span></a>
                         </div>
                     </div>
                 </div>
@@ -258,7 +259,7 @@
             <div class="modalWindow-container">
                 <div class="modalWindow-video-container">
                     <div class="modalWindow-video">
-                        <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1" data-src="https://vimeo.com/881516420?share=copy" loading="lazy" class="lazyload"></iframe>
+                        <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1" data-src="https://player.vimeo.com/video/881516420?h=e5f968acb6" loading="lazy" class="lazyload"></iframe>
                     </div>
                     <a class="close" role="button" data-dismiss="modal" data-bs-dismiss="modal">
                         <span aria-hidden="true" class="mbr-iconfont mobi-mbri-close mobi-mbri closeModal"></span>
@@ -1158,7 +1159,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-3 col-md-12 mb-5 mbr-form" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="yASvQ52FkXPpVaBg81q9PN3n0/TvObKDM8ehlk7c+6+aTkmW1XXc1KxXFh6+RJbZEhZZw1UTa0hbms7Mtc2775Vetut88MABvY9CXTscUN1XsDoZE+a82X3ulLuRhKwk.0q5StWiWH2pcVh8DV5Qq1Iv6JGuiP/B4mzWn0DE7gMwVfgHPHMQXE9M0o9zwlLsIsyLpBGXL6K56mhCnEmJxJPYUqaWimLd3pWn1ttZiDJVpAtbwAkuggE817idP0S6q">
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="yohzGZEJEufcU0JB3CTBzQdXbF12i3NTXKwlpBev5MXNgeuGn4xdhYJdz6svS75KQLVACOg+lsJLlhDVr/uGBXxMnJ8YVxOezICyaSci3R4n78aU2n94C1UL4t8R8x10.S6FsHmazWzMf6mjQFfsye/cJwjjslntzY5/p6zApHQrdBlA+CzgltoAM041eoObabxYRRMRL9J4ouEg9K7omLm6il6pg+WE06x8TahsTlxB0xqdx7+qlXVfJWMfm2cEn">
 <div class="row">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Dziękujemy za zapisanie.</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"> Oops...! some problem! </div>
@@ -1172,7 +1173,11 @@
 </div>
 <div class="col-md-auto col mbr-section-btn"><button type="submit" class="w-100 w-100 btn btn-black display-5">OK</button></div>
 </div>
-</form><!--Formbuilder Form-->
+<span class="gdpr-block">
+<label>
+<span class="textGDPR display-7" style="color: #a7a7a7"><input type="checkbox" name="gdpr" id="gdpr-form01-1c" required="">W celu kontynuowania potwierdź nasz <a style="color: #149dcc; text-decoration: none;" href="https://swoimszlakiem-sklep.pl/help-center/regulation">Regulamin sklepu</a> i <a style="color: #149dcc; text-decoration: none;" href="https://swoimszlakiem-sklep.pl/help-center/privacy-policy">Politykę prywatności</a>.</span>
+</label>
+</span></form><!--Formbuilder Form-->
 </div>
             <div class="col-lg-7 col-md-12 align-right">
             <div class="social-row display-7">
@@ -1212,6 +1217,8 @@
 
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>
+  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/ytplayer/index.js"></script>
   <script src="assets/smart-cart/minicart.js"></script>
@@ -1225,6 +1232,7 @@
   
   
   
-<script>"use strict";if("loading"in HTMLImageElement.prototype){document.querySelectorAll('img[loading="lazy"]').forEach(e=>{e.src=e.dataset.src;if(e.getAttribute("style")){e.setAttribute("data-temp-style",e.getAttribute("style"))};if(e.getAttribute("data-aspectratio")){e.style.paddingTop=100*e.getAttribute("data-aspectratio")+"%";e.style.height=0;}e.onload=function(){if(e.getAttribute("data-temp-style")){e.setAttribute("style", e.getAttribute("data-temp-style"))}else{e.removeAttribute("style")};e.removeAttribute("data-temp-style")}})}else{const e=document.createElement("script");e.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js";document.body.appendChild(e)}</script>
+<input name="cookieData" type="hidden" data-cookie-cookiesalerttype="false" data-cookie-customdialogselector="null" data-cookie-colortext="#424a4d" data-cookie-colorbg="rgb(255, 255, 255)" data-cookie-opacityoverlay="1" data-cookie-textbutton="AKCEPTUJ" data-cookie-rejecttext="REJECT" data-cookie-colorbutton="#FEDB01" data-cookie-rejectcolor="#ffffff" data-cookie-colorlink="#424a4d" data-cookie-underlinelink="true" data-cookie-text="Używamy plików cookie, aby zapewnić najlepszą jakość usług zgodnie z postanowieniami <a href='https://swoimszlakiem-sklep.pl/help-center/privacy-policy'>Polityki prywatności i cookes</a>.">
+  <script>"use strict";if("loading"in HTMLImageElement.prototype){document.querySelectorAll('img[loading="lazy"]').forEach(e=>{e.src=e.dataset.src;if(e.getAttribute("style")){e.setAttribute("data-temp-style",e.getAttribute("style"))};if(e.getAttribute("data-aspectratio")){e.style.paddingTop=100*e.getAttribute("data-aspectratio")+"%";e.style.height=0;}e.onload=function(){if(e.getAttribute("data-temp-style")){e.setAttribute("style", e.getAttribute("data-temp-style"))}else{e.removeAttribute("style")};e.removeAttribute("data-temp-style")}})}else{const e=document.createElement("script");e.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js";document.body.appendChild(e)}</script>
 </body>
 </html>
